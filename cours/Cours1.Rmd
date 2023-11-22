@@ -4,8 +4,6 @@ author: "Ményssa Cherifa-Luron"
 date: "2023-09-15"
 output:
   pdf_document:
-    includes:
-      in_header: header.tex
     latex_engine: xelatex
     toc: true
     toc_depth: 3
@@ -53,7 +51,7 @@ Avec R, vous pouvez effectuer toutes ces étapes de manière efficace et précis
 
 **Installation de RStudio** : Après avoir installé R, allez sur le site officiel de RStudio et téléchargez la version gratuite de RStudio Desktop. Installez-le comme n'importe quel autre logiciel.
 
-![Figure 1. Interface de RStudio](../Images/rstudio)
+![Figure 1. Interface de RStudio](Images/rstudio)
 
 **Lancement de RStudio** : Une fois RStudio installé, ouvrez-le. Vous verrez quatre panneaux principaux : 
 
@@ -67,7 +65,7 @@ RStudio est une interface de développement intégrée (IDE) pour R.
 Elle offre une interface utilisateur conviviale pour R, ce qui facilite l'écriture de code, 
 l'exécution de scripts et la visualisation des résultats. 
 
-![Figure 2. Structure basique pour les projets. Source: https://martinctc.github.io/.](../Images/projet)
+![Figure 2. Structure basique pour les projets. Source: https://martinctc.github.io/.](Images/projet)
 
 **! Toujours prendre la bonne habitude de définir un projet dans RStudio**
 
@@ -82,7 +80,6 @@ Essayez de taper 2 + 2 et appuyez sur Entrée. Vous devriez voir le résultat 4.
 ```
 
 ## Commentaires 
-
 
 Un commentaire en R est un morceau de texte dans votre script R qui n'est pas exécuté comme une partie du code. Les commentaires sont essentiels pour documenter ce que fait votre code, clarifier des parties complexes, ou laisser des notes pour vous-même ou pour d'autres personnes qui pourraient lire ou utiliser votre code plus tard. 
 
