@@ -55,7 +55,7 @@ modifier et distribuer le contenu en respectant les termes de cette licence.
 
 ## Contact
 
-Pour toute question ou suggestion, n'hésitez pas à me contacter via [MonAdresseEmail@example.com].
+Pour toute question ou suggestion, n'hésitez pas à me contacter via [mcherifaluron@universdesdonnees.fr].
 
 ---
 
