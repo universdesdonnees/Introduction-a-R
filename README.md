@@ -18,7 +18,7 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
    - Installation et configuration de l'environnement R
    - Présentation de l'interface RStudio
    - Premiers pas avec R
-2. **Les types de données**
+2. **Les opérateurs et les structures de données** : [Cours 2](cours/Cours2.pdf)
    - Types de données et structures en R
    - Opérations de base et fonctions mathématiques
 3. **Manipulation de Données avec R**
