@@ -12,7 +12,7 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
 
 ### Contenu du Cours
 
-1. **Introduction à R et Bases de R** : [Cours 1](Cours1.pdf)
+1. **Introduction à R et Bases de R** : [Cours 1](cours/Cours1.pdf)
    - Installation et configuration de l'environnement R
    - Présentation de l'interface RStudio
    - Premiers pas avec R
