@@ -1,0 +1,5 @@
+# Ignorer tous les fichiers .Rmd
+*.Rmd
+
+# Ignorer le dossier Images
+Images/
