@@ -1,0 +1,45 @@
+-------------
+-- Exercices Cours 1
+-------------
+
+Exercice 1
+Créez une variable appelée temperature et attribuez-lui la valeur 25.
+Créez une autre variable appelée ville et attribuez-lui le nom de votre ville.
+Affichez la valeur de la variable temperature dans la console.
+Affichez la valeur de la variable ville dans la console.
+
+Exercice 2 
+Créez deux variables prenom et nom contenant votre prénom et votre nom de famille.
+Utilisez la fonction paste() pour concaténer ces deux variables en une seule chaîne de caractères représentant votre nom complet.
+Affichez le résultat dans la console.
+
+Exercice 3
+Créez une variable chiffre contenant le nombre 42 sous forme de texte (chaîne de caractères).
+Convertissez cette variable en un nombre entier (integer) en utilisant la fonction as.integer().
+Affichez le résultat dans la console.
+
+Exercice 4
+Créez deux variables a et b contenant des nombres de votre choix.
+Utilisez ces variables pour effectuer les opérations suivantes : addition, soustraction, multiplication et division.
+Affichez les résultats dans la console.
+
+Exercice 5
+Créez une variable age contenant votre âge.
+Utilisez la fonction sprintf() pour créer une chaîne de caractères qui affiche votre âge sous la forme "J'ai X ans." où X est la valeur de la variable age.
+Affichez la chaîne de caractères résultante dans la console.
+
+Exercice 6
+Créez un vecteur nombres contenant les nombres de 1 à 10.
+Utilisez la fonction length() pour déterminer la longueur du vecteur.
+Utilisez la fonction sum() pour calculer la somme de tous les éléments du vecteur.
+Utilisez la fonction rev() pour inverser l'ordre des éléments du vecteur.
+Affichez les résultats dans la console en utilisant la fonction sprintf()
+
+Exercice 7
+Créer un objet que vous nommerez age qui contiendra, en valeur numérique, votre âge. Affichez dans la console la valeur de l’objet age.
+Modifiez le contenu de l’objet age en lui ajoutant 10 ans. Affichez dans la console la valeur de l’objet age suite à la modification.
+Affichez la date actuelle : today = Sys.Date()).
+Soutrayez 10. Que constatez-vous ? Définissez votre date de naissance : as.Date() et faite la différence entre la date d'aujourd'hui et de votre année de naissance : difftime()
+En faisant appel à la fonction ls(), affichez le nom des objets existants dans l’environnement global.
+À l’aide de la fonction rm(), supprimez l’objet age, puis tentez d’afficher le contenu de l’objet age dans la console.
+Affichez à nouveau le nom des objets existants dans l’environnement global.
