@@ -1,6 +1,6 @@
 # Cours d'Apprentissage de R
 
-Bienvenue dans notre cours interactif pour apprendre le langage de programmation R.
+Bienvenue dans mon cours pour apprendre le langage de programmation R.
 Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser R, 
 un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, 
 la visualisation de données et bien plus.
