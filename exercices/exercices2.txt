@@ -1,0 +1,100 @@
+-------------
+-- Exercices Cours 2
+-------------
+
+Exercice 1 . Les vecteurs
+1)	Créez le vecteur « vec1 » contenant la suite des entiers de 1 à 12. Ajouter à la fin de ce vecteur les valeurs 16, 17, 18.
+a.	Affichez tous les éléments sauf les trois premiers. 
+b.	Affichez tous les éléments supérieurs à 7.
+c.	Filtrez les éléments pairs  de « vec1 » dans « vec1_pair » et impairs dans « vec1_impair » 
+2)	Créez un vecteur « vec2 » de 20 nombres aléatoires entre 1 et 100. Trier ce vecteur en ordre croissant puis décroissant.
+3)	Créez le vecteur « vec3 » contenant 3 fois chacun des 10 chiffres (soit 0, 0, 0 ; 1, 1, 1 ; 2, 2, 2 ; 3, 3, 3 ; etc.).
+4)	Créez le vecteur « vec4 » contenant une fois la lettre A, deux fois la lettre B, trois fois la lettre C ... et 26 fois la lettre Z. Quelle est la longueur de cette suite ?
+5)	Créez le vecteur « vec5» contenant les noms suivants : « individu1 », « individu2 », ... , « individu100 ».
+6)	Calculez l'écart-type d'un vecteur numérique « vect <- c(82, 98, 34, 23 ; 76, 54) » Aide :  LETTERS, variance =  Σ(x-μ)² / (N - 1) et écart-type = √variance
+
+Exercice 2
+1)	Créez deux matrices, A et B, de dimensions 3x3 avec les valeurs de votre choix.
+2)	Effectuez les opérations suivantes: 
+a.	Addition de A et B.
+b.	Produit matriciel de A par B 
+c.	Transposez la matrice A.
+3)	Affectez des « 0 » dans la diagonale de la matrice A
+Aide : diag, t(), %*%
+
+Exercice 3
+1)	Créez une matrice 5x5 remplie de nombres aléatoires entre -1 et 1.
+a)	Identifiez les indices des éléments de la matrice qui sont supérieurs à 0,5.
+b)	Créez une nouvelle matrice binaire en remplaçant ces éléments par 1 et les autres par 0 
+c)	Calculez la moyenne des éléments de chaque ligne de la matrice binaire.
+2)	Créez une matrice X de dimensions 4x3 contenant des valeurs aléatoires entre 1 et 100.
+a.	Extrayez la première ligne et la première colonne de la matrice.
+b.	Calculer la somme de chaque colonne.
+c.	Calculer la moyenne de chaque ligne.
+d.	Modifiez la dernière colonne de la matrice pour qu'elle contienne la somme des éléments de chaque ligne.
+e.	Normalisez la matrice (soustrayez la moyenne et divisez par l'écart-type) pour chaque colonne.
+
+Exercice 4
+1) Créez deux listes distinctes, "liste1" et "liste2", chacune contenant au moins trois éléments.
+2)	Fusionnez ces deux listes pour former une nouvelle liste "liste_combinee".
+3)	Ajoutez un nom à chaque élément de la liste_combinee pour indiquer s'il provient de liste1 ou liste2.
+
+Exercice 5
+1)	Créez une liste nommée « université » qui contient les éléments suivants
+a.	Etudiants : une autre liste qui contient :
+•	Prenom : un vecteur avec les prénoms "Luc", "Julie", "Samir".
+•	Age : un vecteur avec les âges 20, 22, 21.
+b.	cours: une autre liste qui contient :
+•	nom : un vecteur avec les noms "Mathématiques", "Physique", "Histoire".
+•	Professeur : un vecteur avec les noms "Dr. Dupont", "Dr. Leclerc", "Mme. Berger".
+2)	Une fois la liste créée, extrayez et affichez l'âge de "Julie" et le professeur du cours "Histoire".  Affichez les résultats sous la forme d’une chaine de caractères
+3)	Ajoutez un nouvel étudiant nommé "Sophie" âgée de 23 ans à la liste etudiants. 
+4)	Modifiez l'âge de "Luc" pour qu'il soit 21. 
+5)	Supprimez "Samir" de la liste etudiants.
+6)	Ajoutez un nouveau cours "Chimie" enseigné par "Dr. Gautier" à la liste cours.
+
+Exercice 6
+Le jeu de données « precip » est pré-­‐ enregistré dans le logiciel R et regroupe des données de précipitations dans différentes villes américaines.
+1)	Donner la liste des villes pour lesquelles des mesures sont disponibles
+2)	Combien y en a-­‐t-­‐ il ? 
+3)	Quel est le niveau de précipitation des villes suivantes : Philadelphia, Columbia, Baltimore, Sacramento ?
+
+Aide : names()
+
+Exercice 7
+Créez un dataframe contenant des informations sur les ventes de produits, avec des colonnes telles que "Produit", "Prix" et "Quantité".
+
+Produit	Prix	Quantité
+A	10.99	100
+B	15.50	67
+C	6.99	23
+D	12.78	80
+E	30.2	10
+
+
+
+
+
+1)	Trouvez le produit le plus rentable et le produit le moins rentable.
+2)	Calculez le chiffre d'affaires total en multipliant le prix par la quantité pour chaque ligne, puis en agrégez-le pour obtenir le chiffre d'affaires total.
+3)	Calculez la moyenne, l'écart-type et la médiane des prix des produits. Affichez les résultats sous forme de chaine de caractères
+
+Exercice 8
+Année	PIB
+2015	549901,2
+2016	558184,9
+2017	574852,5
+2018	591119,6
+2019	610003,3
+2020	577434,8
+2021	624705,6
+ 
+1)	Créer un data frame pour les deux colonnes : « annees » et « pib »
+2)	En utilisant l’indexation par position, extrayez les années aux positions 2 et 4.
+3)	En utilisant l’indexation par nom, récupérer le dernier élément de la colonne « annees ».
+4)	Quelles sont les années pour lesquelles le pib est compris entre 560 000 et 590 000 ?
+5)	Calculer le taux de croissance du produit intérieur brut (PIB) entre l'année 2015 et l'année 2021.
+6)	Regarder le fonctionnement de la fonction lag() du package {dplyr} dans le fichier d’aide et en observant le résultat dans la console lorsque vous l’appliquer à la colonne pib. En utilisant la fonction lag(), calculer le taux de croissance, en pourcentage du pib d’une année à l’autre.
+7)	Admettons que la réserve Fédérale de Saint Louis vous informe que la valeur du PIB en 2016 est finalement corrigée et est maintenant estimée à 55963.2. Corriger la valeur à l’aide d’une affectation de remplacement.
+Aide :  Taux de croissance du produit intérieur brut (PIB) entre l'année 0 et l'année n est : [(PIBn - PIB0)/PIB0] x 100
+
