@@ -58,5 +58,3 @@ modifier et distribuer le contenu en respectant les termes de cette licence.
 Pour toute question ou suggestion, n'hésitez pas à me contacter via [mcherifaluron@universdesdonnees.fr].
 
 ---
-
-Ce modèle de README offre une vue d'ensemble claire de ce que les utilisateurs peuvent attendre de votre cours GitHub sur R. Vous pouvez le personnaliser davantage en fonction de la spécificité de votre cours et de vos préférences personnelles.
