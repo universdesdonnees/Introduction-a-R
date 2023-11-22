@@ -5,6 +5,8 @@ Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques 
 un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, 
 la visualisation de données et bien plus.
 
+![Figure 1. Interface de RStudio](Images/statistician.png)
+
 ## À propos du Cours
 
 Ce cours est structuré pour aider les débutants à comprendre et à utiliser R efficacement.
