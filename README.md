@@ -19,8 +19,9 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
    - Présentation de l'interface RStudio
    - Premiers pas avec R
 2. **Les opérateurs et les structures de données** : [Cours 2](cours/Cours2.pdf)
-   - Types de données et structures en R
-   - Opérations de base et fonctions mathématiques
+   - Opérateurs booléens et logiques 
+   - Structure de données : vecteur, matrice, liste, dataframe
+   - La famille des fonction "apply" 
 3. **Manipulation de Données avec R**
    - Utilisation des packages `dplyr` et `tidyr`
    - Importation et exportation de données
