@@ -23,8 +23,8 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
    - Structure de données : vecteur, matrice, liste, dataframe
    - La famille des fonction "apply" 
 3. **Contrôle de flux** : [Cours 3](cours/Cours3.pdf)
-   - Conditions : if/else, ifelse()
-   - Boucles : for, while, repeat
+   - Conditions : if/else, ifelse(), switch
+   - Boucles : for et while
    - Fonctions 
 4. **Visualisation de Données**
    - Création de graphiques avec `ggplot2`
