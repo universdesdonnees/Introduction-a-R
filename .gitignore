@@ -1,5 +1,7 @@
 # Ignorer tous les fichiers .Rmd
 *.Rmd
+*.tex
 
-# Ignorer le dossier Images
+# Ignorer le dossier Images, ressources
 Images/
+ressources/

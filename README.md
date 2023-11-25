@@ -30,10 +30,10 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
    - Texte, dates et heures
    - Expression régulières
    - Création de graphiques avec Rbase et `ggplot2` 
-5. **Statistiques avec R**
+5. **Introduction à Tidyverse**  [Cours 5](cours/Cours5.pdf)
    - Techniques de statistiques descriptives
    - Introduction à l'inférence statistique
-6. **Programmation Avancée en R**
+6. **Générer un rapport avec RMarkdown** [Cours 6](cours/Cours6.pdf)
    - Fonctions personnalisées
    - Gestion des erreurs et débogage
 
