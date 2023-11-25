@@ -22,9 +22,10 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
    - Opérateurs booléens et logiques 
    - Structure de données : vecteur, matrice, liste, dataframe
    - La famille des fonction "apply" 
-3. **Manipulation de Données avec R**
-   - Utilisation des packages `dplyr` et `tidyr`
-   - Importation et exportation de données
+3. **Contrôle de flux** : [Cours 3](cours/Cours3.pdf)
+   - Conditions : if/else, ifelse()
+   - Boucles : for, while, repeat
+   - Fonctions 
 4. **Visualisation de Données**
    - Création de graphiques avec `ggplot2`
    - Visualisations de données avancées
