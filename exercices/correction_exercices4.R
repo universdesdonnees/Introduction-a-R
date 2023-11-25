@@ -2,7 +2,6 @@
 # Exercices
 ###############
 
-
 ##
 ## Exercice 1
 ##
