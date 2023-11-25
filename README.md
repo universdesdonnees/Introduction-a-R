@@ -26,9 +26,10 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
    - Conditions : if/else, ifelse(), switch
    - Boucles : for et while
    - Fonctions 
-4. **Visualisation de Données**
-   - Création de graphiques avec `ggplot2`
-   - Visualisations de données avancées
+4. **Manipulation de données avancée et Visualisation de Données** : [Cours 4](cours/Cours4.pdf)
+   - Texte, dates et heures
+   - Expression régulières
+   - Création de graphiques avec Rbase et `ggplot2` 
 5. **Statistiques avec R**
    - Techniques de statistiques descriptives
    - Introduction à l'inférence statistique

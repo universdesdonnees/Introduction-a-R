@@ -1,0 +1,104 @@
+-------------
+-- Exercices Cours 4
+-------------
+
+Exercice 1
+Texte <- "Contactez-nous à contact@exemple.com ou à support@email.org pour toute question. Visitez notre site web à http://www.mon-site-web.com.
+Les hashtags #Rstats, #DataScience et #Analytics sont populaires sur les réseaux sociaux.
+Appelez-nous au (123) 456-7890 ou envoyez un SMS au (555) 123-4567 pour plus d'informations.
+Les événements auront lieu les 25/12/2023, 31/01/2024 et 15/08/2024.
+Suivez @Utilisateur1 et @Utilisateur2 sur Twitter pour les dernières mises à jour.
+Consultez notre site web à https://www.mon-site-web.com ou visitez http://www.example.com pour plus d'informations.
+Les codes postaux des États-Unis incluent 90210, 10001, et 60601.
+Les fichiers de données sont stockés dans data1.txt, data2.csv, et rapport.txt."
+1.	Extrayez toutes les adresses e-mail valides. 
+2.	Remplacez tous les hashtags (mots commençant par "#") par des espaces. 
+3.	Extrayez tous les numéros de téléphone américains au format (xxx) xxx-xxxx. 
+4.	Extrayez toutes les dates au format "dd/mm/yyyy". 
+5.	Extrayez tous les noms d'utilisateur Twitter (qui commencent par "@"). 
+6.	Extrayez toutes les URL valides commençant par "http://" ou "https://". 
+7.	Extrayez tous les codes postaux américains à cinq chiffres.
+8.	Extrayez tous les noms de fichiers avec l'extension ".txt". 
+
+
+Exercice 2 
+L'objectif de cet exercice est de créer une simulation d'analyse de sentiment sur des commentaires de spectateurs concernant des séries américaines. Classez chaque commentaire comme "positif" ou "négatif" en fonction de certains mots-clés.
+commentaires_series <- list(
+  "Cette série est incroyable, je suis accro !",
+  "Le dernier épisode était décevant, l'intrigue est devenue ennuyeuse.",
+  "J'adore les personnages de cette série, ils sont si bien écrits.",
+  "Les effets spéciaux sont incroyables, c'est du grand spectacle !",
+  "Cette série est tellement ennuyeuse, je ne peux pas la regarder.",
+  "Je recommande vivement cette série à tous les fans de science-fiction."
+)
+1.	Chargez la bibliothèque stringr 
+2.	Créez deux vecteurs vides pour stocker les commentaires positifs et négatifs :
+3.	Définissez les mots-clés pour l'analyse de sentiment. Vous pouvez choisir des mots-clés qui, selon vous, indiquent un sentiment positif ou négatif :
+4.	Effectuez l'analyse de sentiment en parcourant chaque commentaire :
+a.	Convertissez le commentaire en minuscules pour une correspondance insensible à la casse.
+b.	Vérifiez si le commentaire contient des mots-clés positifs ou négatifs.
+c.	Attribuez une étiquette "positif" ou "négatif" en fonction des résultats.
+d.	Stockez les commentaires dans les vecteurs commentaires_positifs et commentaires_negatifs en fonction de leur étiquette.
+5.	Affichez les commentaires positifs et négatifs à la fin.
+
+Exercice 3
+Aide :  https://superstatisticienne.fr/wordcloud-avec-r/ 
+L'objectif de cet exercice est d'explorer le texte du roman "Orgueil et Préjugés" de Jane Austen en utilisant R et le package tm et wordcloud, et de réaliser certaines analyses textuelles.
+1.	Créez un objet Corpus à partir du texte du roman en utilisant le package tm. Assurez-vous d'avoir installé et chargé le package tm.
+2.	Effectuez le prétraitement des données textuelles en suivant ces étapes :
+a.	Convertissez le texte en minuscules. 
+b.	Supprimez la ponctuation et les chiffres.
+c.	Supprimez les mots vides (stop words).
+d.	Effectuez la tokenization (découpage en mots).
+3.	Identifiez les mots les plus fréquents dans le texte du roman "Orgueil et Préjugés". Utilisez la fonction findFreqTerms() pour trouver les termes les plus fréquents. 
+4.	Réalisez une analyse de la distribution des mots pour identifier les mots les plus fréquents.
+ Utilisez un nuage de mots (word cloud)
+
+Exercice 4
+Calculez de la durée totale d'une liste de réunions
+reunions <- list(
+  c(debut = "2023-11-06 09:00:00", fin = "2023-11-06 10:30:00"),
+  c(debut = "2023-11-07 14:00:00", fin = "2023-11-07 16:00:00"),
+  c(debut = "2023-11-08 10:30:00", fin = "2023-11-08 12:00:00")
+)
+
+Exercice 5 
+Trouvez la date la plus proche de la date de référence
+dates <- list(  "2023-11-06",  "2023-11-07",  "2023-11-10",  "2023-11-15")
+date_reference <- ymd("2023-11-09")
+
+Exercice 6 
+Créez une fonction qui génère une séquence de dates en fonction des jours de la semaine souhaités. Par exemple, vous devrez peut-être générer une séquence de dates pour tous les lundis et mercredis d'une année donnée. 
+jours_semaine <- c("lundi", "mercredi")
+annee_debut <- 2023
+annee_fin <- 2024
+
+Exercice 7
+Créez une fonction R qui génère une séquence de dates et heures régulières entre la date de début et de fin, avec un intervalle de temps spécifié (par exemple, toutes les 30 minutes).
+
+Exercice 8  Bonus Calendrier Mensuel
+•	Créez une fonction qui selon un nombre allant de 1 à 7 renvoie un jour de la semaine (Aide : switch-case)
+•	Définissez une fonction R appelée generer_calendrier_mensuel qui prendra deux arguments : l'année (annee) et le mois (mois) pour lesquels vous souhaitez générer le calendrier.
+•	À l'intérieur de la fonction, utilisez la fonction as.Date de lubridate pour créer la date du premier jour du mois en utilisant les valeurs de l'année et du mois que vous avez passées en argument. Utilisez paste pour créer une chaîne de caractères au format "yyyy-mm-01" pour la date.
+•	Utilisez la fonction days_in_month de lubridate pour obtenir le dernier jour du mois en spécifiant l'année et le mois.
+•	Utilisez la fonction seq pour créer une séquence de dates du premier jour au dernier jour du mois avec un intervalle d'un jour.
+•	Obtenez les jours de la semaine avec la fonction wday()
+•	Utilisez un switch case pour définir les jours obtenus avec wday
+•	Créez le dataframe final avec deux colonnes : Dates et Jours (avec le nom en lettre)
+•	Appelez la fonction generer_calendrier_mensuel avec l'année et le mois de votre choix pour générer le calendrier mensuel correspondant.
+	
+Exercice 9 Bonus Cryptographie
+Ecrire un programme qui permet de saisir et de crypter un mot M non vide, composé uniquement par des lettres majuscules et d’afficher le mot crypté.
+La méthode de cryptage est la suivante :
+•	  Pour chaque lettre, déterminer son nombre d’occurrence (apparition) n dans le mot M. 
+•	Déterminer K qui est égal à 2*n si n est impair et sera égal à (n DIV 2) si n est pair, avec DIV la division entière
+•	Remplacer chaque lettre par Kième lettre qui la suit dans l’intervalle de l’alphabet [‘A’…’Z’].
+•	 Pour les dernières lettres, on rend dès le début, par exemple si K=3, on remplacera ‘A’ par ‘D’,’B’ par ‘E’, ‘C’ par ‘E’… ‘Y’ par ‘B’ et ‘Z’ par ‘C’.
+
+Exemple : Pour le mot ‘HAPPY’
+ 
+Le mot crypté sera :’JCQQA’
+
+
+
+
