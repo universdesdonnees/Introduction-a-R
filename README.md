@@ -21,7 +21,7 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
 2. **Les opérateurs et les structures de données** : [Cours 2](cours/Cours2.pdf)
    - Opérateurs booléens et logiques 
    - Structure de données : vecteur, matrice, liste, dataframe
-   - La famille des fonction "apply" 
+   - La famille des fonction  `apply` 
 3. **Contrôle de flux** : [Cours 3](cours/Cours3.pdf)
    - Conditions : if/else, ifelse(), switch
    - Boucles : for et while
@@ -30,12 +30,12 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
    - Texte, dates et heures
    - Expression régulières
    - Création de graphiques avec Rbase et `ggplot2` 
-5. **Introduction à Tidyverse**  [Cours 5](cours/Cours5.pdf)
-   - Techniques de statistiques descriptives
-   - Introduction à l'inférence statistique
+5. **Introduction à `dplyr`**  [Cours 5](cours/Cours5.pdf)
+   - Importation de données externes 
+   - Data management avec les pipes : %>%
+   - Lien entre `dplyr` et `ggplot2` 
 6. **Générer un rapport avec RMarkdown** [Cours 6](cours/Cours6.pdf)
-   - Fonctions personnalisées
-   - Gestion des erreurs et débogage
+
 
 ### Exercices
 
@@ -47,16 +47,6 @@ Les exercices sont disponibles dans le dossier `/exercices`.
 - Clonez ce dépôt sur votre machine locale.
 - Installez R et RStudio pour suivre les leçons et faire les exercices.
 - Parcourez les dossiers de leçons et commencez votre apprentissage.
-
-## Contribution
-
-Ce cours est ouvert à la contribution de la communauté. Si vous souhaitez apporter des améliorations,
-des clarifications ou de nouvelles leçons, n'hésitez pas à créer une pull request.
-
-## Licence
-
-Ce cours est distribué sous la licence [MIT](LICENSE). Vous êtes libre d'utiliser, 
-modifier et distribuer le contenu en respectant les termes de cette licence.
 
 ## Contact
 
