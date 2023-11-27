@@ -1,0 +1,61 @@
+-------------
+-- Exercices Cours 5
+-------------
+
+library(nycflights13)
+## Chargement des trois tables
+data(flights)
+data(airports)
+data(airlines)
+
+Exercice 1
+
+Sélectionner la dixième ligne du tableau des aéroports (airports).
+Sélectionner les 5 premières lignes de la table airlines.
+Sélectionner l’aéroport avec l’altitude la plus basse.
+Sélectionnez les vols du mois de juillet (variable month).
+Sélectionnez les vols avec un retard à l’arrivée (variable arr_delay) compris entre 5 et 15 minutes.
+Sélectionnez les vols des compagnies Delta, United et American (codes DL, UA et AA de la variable carrier).
+Triez la table flights par retard au départ décroissant.
+Sélectionnez toutes les colonnes de la table airports sauf les colonnes tz et tzone
+Sélectionnez toutes les colonnes de la table flights dont les noms se terminent par “delay”.
+Dans la table airports, renommez la colonne alt en altitude et la colonne tzone en fuseau_horaire.
+
+Exercice 2
+
+Réécrire le code de l’exercice précédent en utilisant le pipe %>%.
+
+En utilisant le pipe, sélectionnez les vols à destination de San Francico (code SFO de la variable dest)
+et triez-les selon le retard au départ décroissant (variable dep_delay).
+
+Sélectionnez les vols des mois de septembre et octobre, conservez les colonnes dest et dep_delay, créez une nouvelle variable retard_h contenant le retard au départ en heures, et conservez uniquement les 5 lignes avec les plus grandes valeurs de retard_h.
+
+
+Exercice 3
+
+Affichez le nombre de vols par mois.
+Triez la table résultat selon le nombre de vols croissant.
+Calculer la distance moyenne des vols selon l’aéroport de départ (variable origin).
+Calculer le nombre de vols à destination de Los Angeles (code LAX) pour chaque mois de l’année.
+Calculer le nombre de vols selon le mois et la destination.
+Ne conserver, pour chaque mois, que la destination avec le nombre maximal de vols.
+Calculer le nombre de vols selon le mois. Ajouter une colonne comportant le pourcentage de vols annuels réalisés par mois.
+Calculer, pour chaque aéroport de départ et de destination, la durée moyenne des vols (variable air_time). Pour chaque aéroport de départ, ne conserver que la destination avec la durée moyenne la plus longue.
+
+Exercice 4
+
+Faire la jointure de la table airlines sur la table flights à l’aide de left_join.
+À partir de la table résultat de l’exercice précédent, calculer le retard moyen au départ pour chaque compagnie, et trier selon ce retard décroissant.
+Faire la jointure de la table airports sur la table flights en utilisant comme clé le code de l’aéroport de destination.
+À partir de cette table, afficher pour chaque mois le nom de l’aéroport de destination ayant eu le plus petit nombre de vol.
+Créer une table indiquant, pour chaque vol, uniquement le nom de l’aéroport de départ et celui de l’aéroport d’arrivée.
+
+Exercice 5 - Bonus
+
+Calculer le nombre de vols selon l’aéroport de destination, et fusionnez la table airports sur le résultat avec left_join. Stocker le résultat final dans un objet nommé flights_dest.
+
+Créez une carte interactive des résultats avec le package leaflet et le code suivant :
+library(leaflet)
+leaflet(data = flights_dest) %>%
+  addTiles %>%
+  addCircles(lng = ~lon, lat = ~lat, radius = ~n * 10, popup = ~name)
