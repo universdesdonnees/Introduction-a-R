@@ -28,7 +28,8 @@ Réécrire le code de l’exercice précédent en utilisant le pipe %>%.
 En utilisant le pipe, sélectionnez les vols à destination de San Francico (code SFO de la variable dest)
 et triez-les selon le retard au départ décroissant (variable dep_delay).
 
-Sélectionnez les vols des mois de septembre et octobre, conservez les colonnes dest et dep_delay, créez une nouvelle variable retard_h contenant le retard au départ en heures, et conservez uniquement les 5 lignes avec les plus grandes valeurs de retard_h.
+Sélectionnez les vols des mois de septembre et octobre, conservez les colonnes dest et dep_delay,
+créez une nouvelle variable retard_h contenant le retard au départ en heures, et conservez uniquement les 5 lignes avec les plus grandes valeurs de retard_h.
 
 
 Exercice 3
@@ -40,7 +41,8 @@ Calculer le nombre de vols à destination de Los Angeles (code LAX) pour chaque 
 Calculer le nombre de vols selon le mois et la destination.
 Ne conserver, pour chaque mois, que la destination avec le nombre maximal de vols.
 Calculer le nombre de vols selon le mois. Ajouter une colonne comportant le pourcentage de vols annuels réalisés par mois.
-Calculer, pour chaque aéroport de départ et de destination, la durée moyenne des vols (variable air_time). Pour chaque aéroport de départ, ne conserver que la destination avec la durée moyenne la plus longue.
+Calculer, pour chaque aéroport de départ et de destination, la durée moyenne des vols (variable air_time). Pour chaque aéroport de départ, 
+ne conserver que la destination avec la durée moyenne la plus longue.
 
 Exercice 4
 
