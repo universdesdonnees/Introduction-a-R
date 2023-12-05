@@ -35,7 +35,13 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
    - Data management avec les pipes : %>%
    - Lien entre `dplyr` et `ggplot2` 
 6. **Générer un rapport avec RMarkdown** [Cours 6](cours/Cours6.pdf)
-
+   - Introduction à RMarkdown pour les rapports
+   - Combinaison de code R et de texte narratif
+   - Personnalisation des rapports avec des thèmes et formats 
+7. **Data Visualisation avancées : `ggplot2`, `leaflet` et `plotly`** [Cours 7](cours/Cours7.pdf)
+   - Techniques avancées de visualisation avec `ggplot2`
+   - Création de cartes interactives avec `leaflet`
+   - Visualisations interactives et dynamiques avec `plotly`
 
 ### Exercices
 

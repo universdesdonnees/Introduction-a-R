@@ -1,0 +1,31 @@
+Challenge : Visualisation des stations velib à Paris et Toulouse
+
+A RENDRE : (2 JANVIER) 
+
+Plusieurs villes dans le monde ont accepté de mettre en ligne les données sur l’occupation des stations velib. Ces données sont facilement accessibles et mises à jour en temps réel. On dispose généralement de la taille et la localisation des stations, la proportion de vélos disponibles… Il est possible de requêter (entre autres) :
+
+sur les données Decaux
+sur Open data Paris
+sur vlstats pour des données mensuelles ou historiques ou encore sur Velib pour obtenir des fichiers qui sont rafraichis régulièrement.
+
+Récupérer les données actuelles de velib disponibles pour la ville de Paris : 
+https://opendata.paris.fr/explore/dataset/velib-disponibilite-en-temps-reel/information/. On pourra utiliser la fonction read_delim avec l’option delim=";".
+
+Récupérer les données actuelles de velib disponibles pour la ville de Toulouse :
+https://www.data.gouv.fr/fr/datasets/station-velo-toulouse-toulouse/
+
+Décrire les variables du jeu de données.
+
+Visualiser les positions des stations sur une carte leaflet.
+
+Pour Paris, ajouter un popup qui permet de connaitre le nombre de vélos disponibles (électriques+mécanique) quand on clique sur la station (on pourra utiliser l’option popup dans la fonction addCircleMarkers).
+
+Ajouter la nom de la station dans le popup.
+
+Faire de même en utilisant des couleurs différentes en fonction de la proportion de vélos disponibles dans la station. On pourra utiliser les palettes de couleur
+
+ColorPal1 <- colorNumeric(scales::seq_gradient_pal(low = "#132B43", high = "#56B1F7",
+                                               space = "Lab"), domain = c(0,1))
+ColorPal2 <- colorNumeric(scales::seq_gradient_pal(low = "red", high = "black", 
+                                               space = "Lab"), domain = c(0,1))
+Créer une fonction local.station qui permette de visualiser quelques stations autours d’une station choisie.
