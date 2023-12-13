@@ -2,12 +2,7 @@
 | ![R Language Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png) | **Bienvenue dans mon cours pour apprendre le langage de programmation R.**<br>Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser R, un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, la visualisation de données et bien plus. |
 | --- | --- |
 
-## À propos du Cours
-
-Ce cours est structuré pour aider les débutants à comprendre et à utiliser R efficacement.
-Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exercices pour tester vos connaissances et compétences.
-
-### Contenu du Cours : [Cours](cours/Cours.html)
+## Contenu du Cours : [Cours](cours/Cours.html)
 
 1. **Introduction à R et Bases de R** 
    - Installation et configuration de l'environnement R
@@ -38,7 +33,7 @@ Vous trouverez des leçons détaillées, des exemples de code, ainsi que des exe
    - Création de cartes interactives avec `leaflet`
    - Visualisations interactives et dynamiques avec `plotly`
 
-### Exercices
+## Exercices
 
 Chaque section du cours est accompagnée d'exercices pratiques pour renforcer l'apprentissage. 
 Les exercices sont disponibles ici :  [Exercices](https://github.com/universdesdonnees/R-Introduction/tree/main/exercices)
@@ -50,7 +45,6 @@ Les exercices sont disponibles ici :  [Exercices](https://github.com/universdesd
 - Parcourez les dossiers de leçons et commencez votre apprentissage.
 
 ## Contact
-
-Pour toute question ou suggestion, n'hésitez pas à me contacter via [mcherifaluron@universdesdonnees.fr].
+Pour toute question ou suggestion, n'hésitez pas à me contacter via [cmenyssa@live.fr].
 
 ---
