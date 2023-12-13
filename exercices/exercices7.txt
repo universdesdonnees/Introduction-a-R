@@ -1,0 +1,42 @@
+-------------
+-- Exercices Cours 7 : Plotly
+-------------
+
+ Exercice 1
+Créez un graphique en ligne de x et y.  
+Indice : Utilisez `mode = "lines"`.
+
+ Exercice 2
+Créez un nuage de points (scatter plot) de x et y.  
+Indice : Utilisez `mode = "markers"`.
+
+ Exercice 3
+Créez un diagramme à barres de x et y.  
+Indice : Utilisez `type = "bar"`.
+
+ Exercice 4
+Créez un graphique à bulles de x et y. Choisissez la taille et la couleur de votre choix pour chaque marqueur.  
+Indice : Utilisez `size` et `color`.
+
+ Exercice 5
+Créez une carte de chaleur (heatmap) de l'ensemble de données “volcano”.  
+Indice : Utilisez `z`.
+
+ Exercice 6
+Créez un graphique en aires de x et y.  
+Indice : Utilisez `fill = "tozeroy"`.
+
+ Exercice 7
+Ajoutez y3 au nuage de points de l'Exercice 2. Ensuite, créez votre nuage de points avec trace.  
+Indice : Utilisez `add_trace()`.
+
+ Exercice 8
+Transformez la trace que vous avez ajoutée dans l'Exercice 7 en légende avec les coordonnées (1,1) et la couleur rouge.  
+Indice : Utilisez `layout()`.
+
+ Exercice 9
+Ajoutez des axes au nuage de points que vous avez construit dans l'Exercice 2. Définissez `nticks` à 40, ajoutez `showline`, donnez un titre et réglez `mirror` sur “all”.  
+Indice : Utilisez `list()`.
+
+ Exercice 10
+Ajoutez maintenant `showgrid`, `zeroline`, réglez `nticks` à 20 et supprimez `showline` pour repérer les différences.

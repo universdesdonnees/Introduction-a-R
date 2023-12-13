@@ -1,7 +1,5 @@
 Challenge : Visualisation des stations velib à Paris et Toulouse
 
-A RENDRE : (2 JANVIER) 
-
 Plusieurs villes dans le monde ont accepté de mettre en ligne les données sur l’occupation des stations velib. Ces données sont facilement accessibles et mises à jour en temps réel. On dispose généralement de la taille et la localisation des stations, la proportion de vélos disponibles… Il est possible de requêter (entre autres) :
 
 sur les données Decaux
