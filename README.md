@@ -1,7 +1,7 @@
 | ![R Language Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png) | **Bienvenue dans mon cours pour apprendre le langage de programmation R.**<br>Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser R, un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, la visualisation de données et bien plus. |
 | --- | --- |
 
-## ✨ Contenu du Cours : [Cours](cours/Cours.html) 👈
+## 👉 ICI : [Cours](https://universdesdonnees.github.io/R-Introduction/cours/Cours.html) 👈
 
 1. ✨**Introduction à R et Bases de R** 
    - Installation et configuration de l'environnement R
