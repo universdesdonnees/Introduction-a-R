@@ -5,6 +5,8 @@ Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques 
 un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, 
 la visualisation de données et bien plus.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png" width="32">
+
 ![Langage R](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png)
 
 ## À propos du Cours
