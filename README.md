@@ -1,13 +1,21 @@
 # Cours d'Apprentissage de R
 
-Bienvenue dans mon cours pour apprendre le langage de programmation R.
-Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser R, 
-un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, 
-la visualisation de données et bien plus.
+<table>
+  <tr>
+    <!-- Colonne pour l'image -->
+    <td>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png" width="100">
+    </td>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png" width="32">
-
-![Langage R](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png)
+    <!-- Colonne pour le texte -->
+    <td>
+      <p><strong>Bienvenue dans mon cours pour apprendre le langage de programmation R.</strong></p>
+      <p>Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser R, 
+      un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, 
+      la visualisation de données et bien plus.</p>
+    </td>
+  </tr>
+</table>
 
 ## À propos du Cours
 
