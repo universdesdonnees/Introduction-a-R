@@ -37,7 +37,7 @@
 
 Chaque section du cours est accompagnée d'exercices pratiques pour renforcer l'apprentissage. 
 
-Les exercices sont disponibles ici :  [Exercices](https://github.com/universdesdonnees/R-Introduction/tree/main/exercices) 👈
+Les exercices sont disponibles ici : **[Exercices](https://github.com/universdesdonnees/R-Introduction/tree/main/exercices)** 👈
 
 ## Comment Utiliser ce Dépôt
 
