@@ -48,7 +48,7 @@ Les exercices sont disponibles ici : **[Exercices](https://github.com/universdes
 Pour toute question ou suggestion, n'hésitez pas à me contacter via [cmenyssa@live.fr].
  
 - [LinkedIn](https://www.linkedin.com/in/menyssacherifa/) 
-- [Mail][cmenyssa@live.fr]
+- [Mail](cmenyssa@live.fr)
 - [Website](https://mcherifaluron.com)
 
 ---
