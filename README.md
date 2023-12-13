@@ -45,7 +45,7 @@ Les exercices sont disponibles ici : **[Exercices](https://github.com/universdes
 - Parcourez les dossiers de leçons et commencez votre apprentissage.
 
 ## Contact
-Pour toute question ou suggestion, n'hésitez pas à me contacter via [cmenyssa@live.fr].
+Pour toute question ou suggestion, n'hésitez pas à me contacter via :
  
 - [LinkedIn](https://www.linkedin.com/in/menyssacherifa/) 
 - [Mail](cmenyssa@live.fr)
