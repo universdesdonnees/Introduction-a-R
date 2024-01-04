@@ -32,6 +32,12 @@
    - Création de cartes interactives avec `leaflet`
    - Visualisations interactives et dynamiques avec `plotly`
 
+## Achetez mon livre sur le langage R
+
+Pour une introduction approfondie et accélérée au langage R, adaptée à la science des données, découvrez mon livre.
+
+Disponible maintenant sur Amazon. [![Acheter sur Amazon](https://img.shields.io/badge/-Achetez%20sur%20Amazon-orange?style=for-the-badge&logo=amazon)](https://www.amazon.fr/Introduction-acc%C3%A9l%C3%A9r%C3%A9e-LANGAGE-pour-science/dp/B0CF4FRL9D/ref=sr_1_3?keywords=langage+r&qid=1704365700&sr=8-3)
+
 ## Exercices
 
 Chaque section du cours est accompagnée d'exercices pratiques pour renforcer l'apprentissage. 
