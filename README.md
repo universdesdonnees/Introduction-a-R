@@ -1,6 +1,4 @@
-| ![Logo du langage R](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png) | **Bienvenue dans mon cours pour apprendre le langage de programmation R.**<br>Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser R, un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, la visualisation de données et bien plus.
-
-Disponible maintenant sur Amazon.<br> [![Acheter sur Amazon](https://img.shields.io/badge/-Achetez%20sur%20Amazon-blue?style=for-the-badge&logo=amazon)](https://www.amazon.fr/Introduction-acc%C3%A9l%C3%A9r%C3%A9e-LANGAGE-pour-science/dp/B0CF4FRL9D/ref=sr_1_3?keywords=langage+r&qid=1704365700&sr=8-3) |
+| ![Logo du langage R](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png) | **Bienvenue dans mon cours pour apprendre le langage de programmation R.**<br>Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser R, un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, la visualisation de données et bien plus. <br>Disponible maintenant sur Amazon.<br> [![Acheter sur Amazon](https://img.shields.io/badge/-Achetez%20sur%20Amazon-blue?style=for-the-badge&logo=amazon)](https://www.amazon.fr/Introduction-acc%C3%A9l%C3%A9r%C3%A9e-LANGAGE-pour-science/dp/B0CF4FRL9D/ref=sr_1_3?keywords=langage+r&qid=1704365700&sr=8-3) |
 | --- | --- |
 
 
