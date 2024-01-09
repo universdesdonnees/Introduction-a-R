@@ -1,5 +1,6 @@
-| ![R Language Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png) | **Bienvenue dans mon cours pour apprendre le langage de programmation R.**<br>Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser R, un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, la visualisation de données et bien plus. |
+| ![Logo du langage R](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png) | **Bienvenue dans mon cours pour apprendre le langage de programmation R.**<br>Ce dépôt GitHub est conçu pour fournir à la fois des ressources théoriques et pratiques pour maîtriser R, un langage de programmation puissant et flexible utilisé dans la science des données, la statistique, la visualisation de données et bien plus. <br><br>Disponible maintenant sur Amazon.<br> [![Acheter sur Amazon](https://img.shields.io/badge/-Acheter%20sur%20Amazon-blue?style=for-the-badge&logo=amazon)](https://www.amazon.fr/Introduction-acc%C3%A9l%C3%A9r%C3%A9e-LANGAGE-pour-science/dp/B0CF4FRL9D/ref=sr_1_3?keywords=langage+r&qid=1704365700&sr=8-3) |
 | --- | --- |
+
 
 ## 👉 ICI : [Cours](https://universdesdonnees.github.io/R-Introduction/cours/Cours.html) 👈
 
@@ -31,6 +32,12 @@
    - Techniques avancées de visualisation avec `ggplot2`
    - Création de cartes interactives avec `leaflet`
    - Visualisations interactives et dynamiques avec `plotly`
+
+## Achetez mon livre sur le langage R
+
+Pour une introduction approfondie et accélérée au langage R, adaptée à la science des données, découvrez mon livre. Disponible maintenant sur Amazon. 
+[![Acheter sur Amazon](https://img.shields.io/badge/-Acheter%20sur%20Amazon-blue?style=for-the-badge&logo=amazon)](https://www.amazon.fr/Introduction-acc%C3%A9l%C3%A9r%C3%A9e-LANGAGE-pour-science/dp/B0CF4FRL9D/ref=sr_1_3?keywords=langage+r&qid=1704365700&sr=8-3)
+
 
 ## Exercices
 
