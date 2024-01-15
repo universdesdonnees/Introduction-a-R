@@ -32,6 +32,8 @@
    - Techniques avancées de visualisation avec `ggplot2`
    - Création de cartes interactives avec `leaflet`
    - Visualisations interactives et dynamiques avec `plotly`
+8. ✨**Exploratory Data Analysis : Application aux données Ramen**
+   
 
 ## Achetez mon livre sur le langage R
 
